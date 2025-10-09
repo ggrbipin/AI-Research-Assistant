@@ -1,8 +1,10 @@
-# AI Research Assistant
+# 🤖 AI Research Assistant with Multi-Agent Collaboration
 
-A powerful multi-document research assistant powered by AI agents, LangGraph workflows, and RAG (Retrieval-Augmented Generation). Upload documents, ask questions, and get intelligent responses with conversation memory and multi-agent processing.
+An AI-powered Multi-Agent Research Assistant built with Generative AI, Agentic AI, LangGraph, RAG, Persistent Memory, FAISS, and FastAPI. It supports multi-format uploads, intelligent PDF analysis, and expert-like Q&A via Researcher, Summarizer, Critic, and Editor agents—offering deep, contextual, and interactive research insights.
 
-## Features
+This Multi-Agent architecture (Researcher, Summarizer, Critic, and Editor) simulates how real researchers process information. It integrates FastAPI (backend), Next.js + TailwindCSS (frontend), FAISS (vector search), and SQLite for conversation persistence.
+
+## 🚀 Features
 
 - **Multi-Document Support**: Upload and query multiple documents (PDF, DOCX, HTML, TXT)
 - **Multi-Agent Workflow**:
