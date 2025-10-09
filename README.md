@@ -141,6 +141,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 cd backend
 pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
 ```
 
 ### 3️⃣ Environment Configuration
@@ -163,12 +164,6 @@ npm install
 npm run dev
 ```
 
-### 5️⃣ Backend Setup
-
-```bash
-cd backend
-uvicorn main:app --reload --port 8000
-```
 Visit:
 
 - Frontend: http://localhost:3000
