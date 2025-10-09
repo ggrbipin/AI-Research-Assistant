@@ -4,6 +4,8 @@ An AI-powered **Multi-Agent Research Assistant** built with **Generative AI, Age
 
 This **Multi-Agent architecture** (Researcher, Summarizer, Critic, and Editor) simulates how real researchers process information. It integrates **FastAPI (backend), Next.js + TailwindCSS (frontend), FAISS (vector search), and SQLite** for conversation persistence.
 
+---
+
 ## 🚀 Features
 
 - 🧠 **Multi-Agent Workflow**
@@ -13,9 +15,12 @@ This **Multi-Agent architecture** (Researcher, Summarizer, Critic, and Editor) s
   - **Editor Agent →** Refines and formats final responses
 - **📚 Multi-Document Support** → Upload and query multiple PDFs, DOCX, or TXT files
 - **💬 Conversation Memory** → SQLite-backed memory for contextual, follow-up queries
+- **🧩 Chunking & Embeddings** → Splits documents into chunks and embeds them using OpenAI models
 - **⚡ FAISS Vector Search** → High-speed semantic retrieval of embedded text chunks
 - **🔄 LangGraph Orchestration** → Structured multi-agent pipeline with conditional routing
 - **🎨 Modern UI** → Responsive frontend built with Next.js and TailwindCSS
+
+---
 
 ## 🏗️ Project Structure
 
@@ -136,7 +141,8 @@ cd AI-Research-Assistant
 ```bash
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
 
 # Install dependencies
 cd backend
