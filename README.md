@@ -126,6 +126,8 @@ AI-Research-Assistant/
 - **LangGraph**: Agent workflow orchestration
 - **OpenAI**: GPT-4o-mini and text-embedding-3-small models
 
+---
+
 ## 🔧 Prerequisites
 
 - Python 3.8+
