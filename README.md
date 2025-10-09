@@ -104,13 +104,13 @@ AI-Research-Assistant/
 
 ## ⚙️ Tech Stack
 
-### Backend
+### 🖥️ Backend
 - **FastAPI**: High-performance async API framework
 - **PDFPlumber**: PDF text extraction
 - **Python-DOCX**: DOCX parsing
 - **BeautifulSoup4**: HTML parsing
 
-### Frontend
+### 🎨 Frontend
 - **Next.js 15**: React framework with App Router
 - **TypeScript**: Type-safe development
 - **TailwindCSS 4**: Utility-first styling
@@ -118,11 +118,11 @@ AI-Research-Assistant/
 - **Radix UI**: Accessible component primitives
 - **Axios**: HTTP client
 
-### Databases
+### 🗄️ Databases
 - **FAISS**: Vector similarity search (CPU)
 - **SQLite**: Conversation memory persistence
 
-### AI 
+### 🤖 AI 
 - **LangGraph**: Agent workflow orchestration
 - **OpenAI**: GPT-4o-mini and text-embedding-3-small models
 
