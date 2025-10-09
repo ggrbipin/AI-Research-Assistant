@@ -6,18 +6,18 @@ This **Multi-Agent architecture** (Researcher, Summarizer, Critic, and Editor) s
 
 ## 🚀 Features
 
-- **Multi-Document Support**: Upload and query multiple documents (PDF, DOCX, HTML, TXT)
-- **Multi-Agent Workflow**:
-  - Research Agent: Retrieves relevant context from documents
-  - Summarizer Agent: Creates concise summaries
-  - Critic Agent: Validates and critiques responses
-  - Editor Agent: Refines final answers
-- **Conversation Memory**: Session-based chat history with context retention
-- **FAISS Vector Store**: Efficient semantic search using embeddings
-- **LangGraph Orchestration**: Conditional routing and workflow visualization
-- **Modern UI**: Next.js frontend with TailwindCSS and React Query
+- 🧠 **Multi-Agent Workflow**
+  - **Research Agent →** Finds relevant chunks using FAISS
+  - **Summarizer Agent →** Creates concise summaries
+  - **Critic Agent →** Identifies limitations and gaps
+  - **Editor Agent →** Refines and formats final responses
+- **📚 Multi-Document Support** → Upload and query multiple PDFs, DOCX, or TXT files
+- **💬 Conversation Memory** → SQLite-backed memory for contextual, follow-up queries
+- **⚡ FAISS Vector Search** → High-speed semantic retrieval of embedded text chunks
+- **🔄 LangGraph Orchestration** → Structured multi-agent pipeline with conditional routing
+- **🎨 Modern UI** → Responsive frontend built with Next.js and TailwindCSS
 
-## Project Structure
+## 🏗️ Project Structure
 
 ```
 AI-Research-Assistant/
@@ -96,7 +96,7 @@ AI-Research-Assistant/
 └── README.md                          # This file
 ```
 
-## Tech Stack
+## ⚙️ Tech Stack
 
 ### Backend
 - **FastAPI**: High-performance async API framework
@@ -116,22 +116,22 @@ AI-Research-Assistant/
 - **Radix UI**: Accessible component primitives
 - **Axios**: HTTP client
 
-## Prerequisites
+## 🔧 Prerequisites
 
 - Python 3.8+
 - Node.js 18+
 - OpenAI API Key
 
-## Installation
+## ⚡ Installation
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/AI-Research-Assistant.git
+git clone https://github.com/divyeshmutha12/AI-Research-Assistant.git
 cd AI-Research-Assistant
 ```
 
-### 2. Backend Setup
+### 2️⃣ Backend Setup
 
 ```bash
 # Create and activate virtual environment
@@ -143,55 +143,38 @@ cd backend
 pip install -r requirements.txt
 ```
 
-### 3. Environment Configuration
+### 3️⃣ Environment Configuration
 
 Create a `.env` file in the root directory:
 
 ```env
-# OpenAI
-OPENAI_API_KEY=your_openai_api_key_here
-
-# FAISS
-VECTOR_DB_PATH=./db/faiss_index
-
-# FastAPI
-BACKEND_PORT=8000
-
-# Embedding Model
+OPENAI_API_KEY=your_openai_api_key
+VECTOR_DB_PATH=./backend/db/documents
 EMBEDDING_MODEL=text-embedding-3-small
-
-# OpenAI LLM Model
 LLM_MODEL=gpt-4o-mini
+BACKEND_PORT=8000
 ```
 
-### 4. Frontend Setup
+### 4️⃣ Frontend Setup
 
 ```bash
 cd frontend
 npm install
+npm run dev
 ```
 
-## Usage
-
-### Start Backend Server
+### 5️⃣ Backend Setup
 
 ```bash
 cd backend
 uvicorn main:app --reload --port 8000
 ```
+Visit:
 
-API will be available at `http://localhost:8000`
+- Frontend: http://localhost:3000
+- Backend: http://localhost:8000
 
-### Start Frontend
-
-```bash
-cd frontend
-npm run dev
-```
-
-UI will be available at `http://localhost:3000`
-
-## API Endpoints
+## 🧩 API Endpoints
 
 ### Document Management
 - `POST /upload` - Upload document (legacy, single FAISS index)
@@ -214,7 +197,7 @@ UI will be available at `http://localhost:3000`
 - `GET /workflow/diagram` - Get LangGraph workflow as Mermaid diagram
 - `GET /stats` - Database statistics
 
-## Multi-Agent Workflow
+## 🧠 Multi-Agent Workflow
 
 The system uses a sophisticated multi-agent pipeline:
 
@@ -225,7 +208,7 @@ The system uses a sophisticated multi-agent pipeline:
 
 Agents communicate through a shared state managed by LangGraph, with conditional routing based on response quality.
 
-## Document Processing
+## 🧾 Document Processing
 
 Supported formats:
 - **PDF**: Extracted using PDFPlumber
@@ -239,7 +222,7 @@ Documents are:
 3. Stored in FAISS vector indexes
 4. Retrieved via semantic similarity search
 
-## Conversation Memory
+## 💬 Conversation Memory
 
 - **Session-based**: Each conversation has a unique session ID
 - **SQLite storage**: Persistent chat history
@@ -273,7 +256,7 @@ const { data } = useQuery({
 })
 ```
 
-## Logging
+## 📜 Logging
 
 Comprehensive logging across:
 - API requests (`backend/logs/api.log`)
@@ -281,27 +264,16 @@ Comprehensive logging across:
 - Document parsing (`backend/logs/parser.log`)
 - Database operations (`backend/logs/database.log`)
 
-## Contributing
+## 🌟 Future Scope
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+- LangSmith integration for agent evaluation
+- Audio/video research input (Whisper API)
+- Multi-language summarization
+- Graph visualization of LangGraph workflow
+- PDF/Word export for AI-generated reports
 
-## License
+## 🪪 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+**MIT License** – Free to use and modify.
 
-## Acknowledgments
 
-- OpenAI for GPT and embedding models
-- LangChain/LangGraph for agent orchestration
-- Meta AI for FAISS vector search
-- Vercel for Next.js framework
-
-## Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/AI-Research-Assistant](https://github.com/yourusername/AI-Research-Assistant)
