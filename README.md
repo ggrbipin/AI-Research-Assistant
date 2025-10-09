@@ -100,6 +100,7 @@ AI-Research-Assistant/
 ├── PROJECT_ANALYSIS.md                # Project documentation
 └── README.md                          # This file
 ```
+---
 
 ## ⚙️ Tech Stack
 
@@ -126,6 +127,8 @@ AI-Research-Assistant/
 - Python 3.8+
 - Node.js 18+
 - OpenAI API Key
+  
+---
 
 ## ⚡ Installation
 
@@ -176,6 +179,8 @@ Visit:
 - Frontend: http://localhost:3000
 - Backend: http://localhost:8000
 
+---
+
 ## 🧩 API Endpoints
 
 ### Document Management
@@ -199,6 +204,8 @@ Visit:
 - `GET /workflow/diagram` - Get LangGraph workflow as Mermaid diagram
 - `GET /stats` - Database statistics
 
+---
+
 ## 🧠 Multi-Agent Workflow
 
 The system uses a sophisticated multi-agent pipeline:
@@ -209,6 +216,8 @@ The system uses a sophisticated multi-agent pipeline:
 4. **Editor Agent**: Produces final polished response
 
 Agents communicate through a shared state managed by LangGraph, with conditional routing based on response quality.
+
+---
 
 ## 🧾 Document Processing
 
@@ -223,6 +232,8 @@ Documents are:
 2. Embedded using OpenAI's text-embedding-3-small
 3. Stored in FAISS vector indexes
 4. Retrieved via semantic similarity search
+
+---
 
 ## 💬 Conversation Memory
 
@@ -257,6 +268,7 @@ const { data } = useQuery({
   }
 })
 ```
+---
 
 ## 📜 Logging
 
@@ -265,6 +277,8 @@ Comprehensive logging across:
 - Agent workflows (`backend/logs/agents.log`)
 - Document parsing (`backend/logs/parser.log`)
 - Database operations (`backend/logs/database.log`)
+  
+---
 
 ## 🌟 Future Scope
 
@@ -273,9 +287,12 @@ Comprehensive logging across:
 - Multi-language summarization
 - Graph visualization of LangGraph workflow
 - PDF/Word export for AI-generated reports
+  
+---
 
 ## 🪪 License
 
 **MIT License** – Free to use and modify.
 
+---
 
