@@ -106,10 +106,6 @@ AI-Research-Assistant/
 
 ### Backend
 - **FastAPI**: High-performance async API framework
-- **LangGraph**: Agent workflow orchestration
-- **OpenAI**: GPT-4 and text-embedding-3-small models
-- **FAISS**: Vector similarity search (CPU)
-- **SQLite**: Conversation memory persistence
 - **PDFPlumber**: PDF text extraction
 - **Python-DOCX**: DOCX parsing
 - **BeautifulSoup4**: HTML parsing
@@ -121,6 +117,14 @@ AI-Research-Assistant/
 - **React Query (TanStack)**: Data fetching and caching
 - **Radix UI**: Accessible component primitives
 - **Axios**: HTTP client
+
+### Databases
+- **FAISS**: Vector similarity search (CPU)
+- **SQLite**: Conversation memory persistence
+
+### AI 
+- **LangGraph**: Agent workflow orchestration
+- **OpenAI**: GPT-4o-mini and text-embedding-3-small models
 
 ## 🔧 Prerequisites
 
