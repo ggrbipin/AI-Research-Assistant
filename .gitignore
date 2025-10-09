@@ -1,0 +1,170 @@
+# ==========================
+# Root-Level Ignore Rules
+# ==========================
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Python virtual environments
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.eggs/
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ==========================
+# Backend (FastAPI / Python)
+# ==========================
+
+# FAISS Index & Memory files
+backend/db/faiss_index/
+backend/db/*.bin
+backend/db/*.index
+backend/db/*.pkl
+backend/db/__pycache__/
+backend/db/*.npy
+backend/db/*.json
+backend/db/conversations.db
+backend/db/conversations.db-journal
+backend/db/documents/
+
+# Redis dumps (if persisted locally)
+dump.rdb
+
+# Cache files
+backend/.cache/
+__pycache__/
+.cache/
+*.db
+
+# Temporary uploads
+backend/uploads/
+backend/temp/
+backend/tmp/
+
+# IDE configs
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==========================
+# Frontend (Next.js / React)
+# ==========================
+
+# Node modules & build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+frontend/.turbo/
+frontend/.vercel/
+
+# npm/yarn/pnpm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# ==========================
+# Miscellaneous
+# ==========================
+
+# Backup / generated files
+*.bak
+*.tmp
+*.swp
+*.swo
+*.zip
+*.tar
+*.gz
+
+# ==========================
+# Project specific
+# ==========================
+
+# Uploaded PDFs / Documents
+uploads/
+data/
+pdfs/
+*.pdf
+*.docx
+*.txt
+
+# Local test scripts or sandbox
+sandbox/
+test_output/
+
+# Project analysis files (if auto-generated)
+PROJECT_ANALYSIS.md
